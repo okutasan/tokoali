@@ -369,9 +369,6 @@ public class TambahData extends AppCompatActivity{
                 startActivity(tambah);
 //                finish();
                 return true;
-            case R.id.bantuan:
-                // Exit option clicked.
-                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

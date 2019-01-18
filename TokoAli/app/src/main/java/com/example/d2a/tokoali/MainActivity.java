@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     // Storing server url into String variable.
     String HttpUrl = "http://192.168.43.126/tokoali/tambahkeranjang.php";
 
+
     private final String URL_DATA = "http://192.168.43.126/tokoali/data.php";
 
     private RecyclerView recyclerView;
@@ -200,9 +201,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent tambah = new Intent(getApplicationContext(), TambahData.class);
                 startActivity(tambah);
 //                finish();
-                return true;
-            case R.id.bantuan:
-                // Exit option clicked.
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

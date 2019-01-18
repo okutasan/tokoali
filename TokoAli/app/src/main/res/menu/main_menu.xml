@@ -11,10 +11,6 @@
         android:title="Tambah"
         app:showAsAction="always" />
     <item
-        android:id="@+id/bantuan"
-        android:title="Bantuan"
-        app:showAsAction="never" />
-    <item
         android:id="@+id/keranjang"
         android:title="Nota"
         app:showAsAction="always" />

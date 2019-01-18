@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:text="Select Image"
             android:id="@+id/buttonSelect"
-            android:background="@color/green"
+            android:background="@color/mediumturquoise"
             android:layout_margin="10dp"/>
 
         <ImageView
@@ -76,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:background="@color/red"
+            android:background="@color/cornflowerblue"
             android:text="TAMBAH"
             android:textColor="@color/white"
             android:textSize="16dp" />

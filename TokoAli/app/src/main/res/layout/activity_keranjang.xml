@@ -25,7 +25,8 @@
         android:layout_marginEnd="325dp"
         android:layout_marginRight="325dp"
         android:layout_marginBottom="145dp"
-        android:text="Total Harga" />
+        android:text="Total Harga"
+        android:textSize="15sp"/>
 
     <TextView
         android:id="@+id/total"
@@ -36,7 +37,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="0" />
+        android:text="0"
+        android:textSize="15sp"/>
 
     <Button
         android:id="@+id/btnBayar"

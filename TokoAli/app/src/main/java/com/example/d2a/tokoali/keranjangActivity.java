@@ -40,7 +40,7 @@ public class keranjangActivity extends AppCompatActivity {
     TextView txtTotal;
     int total=0;
     Button btnBayar;
-    private final String URL_DATA = "http://192.168.43.126/tokoali/datakeranjang.php";
+    private final String URL_DATA = "http://192.168.43.126/tokoali/datakeranjang.php"; //url tetering
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
@@ -151,9 +151,6 @@ public class keranjangActivity extends AppCompatActivity {
                 Intent tambah = new Intent(getApplicationContext(), TambahData.class);
                 startActivity(tambah);
 //                finish();
-                return true;
-            case R.id.bantuan:
-                // Exit option clicked.
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
